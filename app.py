@@ -5,8 +5,6 @@ import pandas as pd
 import joblib 
 import json
 
-
-
 # Page configuration 
 st.set_page_config( 
     page_title="Machine Failure Prediction", 
