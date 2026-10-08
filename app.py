@@ -6,8 +6,6 @@ import joblib
 import json
 
 
-model = joblib.load("machine_failure_model.pkl")
-print("Model loaded successfully.")
 
 # Page configuration 
 st.set_page_config( 
