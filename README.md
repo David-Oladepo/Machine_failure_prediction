@@ -17,6 +17,18 @@ An interactive machine-learning application that estimates the probability of ma
 
 Unexpected equipment failure can lead to costly downtime, production interruptions, and maintenance expenses. Predictive maintenance uses operational data and machine-learning techniques to identify potential failures before they occur.
 
+## ⭐ Key Highlights
+
+* **Machine learning:** Uses a trained Random Forest classifier to estimate machine-failure probability.
+* **Interactive application:** Allows users to enter machine operating conditions and receive an immediate prediction.
+* **Risk classification:** Applies a configurable 25% decision threshold to classify predicted risk.
+* **Model evaluation:** Uses validation metrics to guide threshold selection, balancing precision and recall.
+* **Input validation:** Checks operating measurements against the ranges observed during model training.
+* **Decision support:** Demonstrates how predictive analytics can support industrial maintenance planning.
+
+**Technologies:** Python · Pandas · Scikit-learn · Joblib · Streamlit
+
+
 This project develops a binary classification model that estimates machine-failure risk using sensor measurements and machine type. The trained model is integrated into an interactive Streamlit application where users can enter operating conditions and receive a risk prediction.
 
 ## Key Features
