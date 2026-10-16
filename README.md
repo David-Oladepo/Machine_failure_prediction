@@ -2,6 +2,15 @@
 
 **Try the application:** [Predictive Maintenance — Machine Failure Prediction](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
 
+## 📸 Application Screenshot
+
+![Predictive Maintenance Machine Failure Prediction App](./predictive-maintenance-demo.png)
+
+*Interactive machine failure prediction application built with Python, Scikit-learn, and Streamlit.*
+
+[🚀 Launch the Live App](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
+
+
 Explore how machine operating conditions influence the model's estimated failure probability and risk classification.
 
 **Note:** This is a portfolio demonstration using a model trained on a synthetic dataset. Predictions are estimates and should not be used as the sole basis for real-world maintenance or safety decisions.
