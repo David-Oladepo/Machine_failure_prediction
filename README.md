@@ -92,3 +92,47 @@ At the selected threshold of 0.25, the model achieved the following validation r
 | Accuracy  |            97.80% |
 | Precision |            66.07% |
 
+## 🛠️ Installation and Getting Started
+
+### Prerequisites
+
+* Python 3.10 or a compatible version supported by the listed dependencies
+* Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/David-Oladepo/Machine_failure_prediction.git
+cd Machine_failure_prediction
+```
+
+### 2. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 3. Run the application
+
+```bash
+python -m streamlit run app.py
+```
+
+Streamlit will display a local URL in your terminal. Open that URL in your browser to interact with the application.
+
+### Required project files
+
+Make sure these files remain in the project directory:
+
+* `app.py` — interactive Streamlit application
+* `machine_failure_model.pkl` — trained machine-learning model
+* `final_threshold.json` — configured classification threshold
+* `training_ranges.json` — input ranges used by the application
+* `requirements.txt` — Python dependencies
+* `README.md` — project documentation
+
+### Live demo
+
+You can also use the deployed application without installing anything:
+
+[Launch Predictive Maintenance](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
