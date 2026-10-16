@@ -1,3 +1,13 @@
+## 🚀 Live Demo
+
+**Try the application:** [Predictive Maintenance — Machine Failure Prediction](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
+
+Explore how machine operating conditions influence the model's estimated failure probability and risk classification.
+
+**Note:** This is a portfolio demonstration using a model trained on a synthetic dataset. Predictions are estimates and should not be used as the sole basis for real-world maintenance or safety decisions.
+
+---
+
 # Predictive Maintenance: Machine Failure Prediction Using Machine Learning
 
 An interactive machine-learning application that estimates the probability of machine failure using operational sensor measurements. Built to demonstrate predictive analytics, data preprocessing, model evaluation, and decision-support applications for industrial operations.
