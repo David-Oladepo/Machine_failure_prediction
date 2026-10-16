@@ -10,7 +10,7 @@
 
 ### Prediction Results
 
-![Predictive Maintenance Prediction Results](./Predictive--maintenance-demo.png)
+![Predictive Maintenance Prediction Results](./predictive-maintenance-demo.png)
 
 *Example output from the machine-learning model, showing its estimated failure probability against the configured decision threshold.*
 
