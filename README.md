@@ -4,13 +4,13 @@
 
 ## 📸 Application Screenshot
 
-![Predictive Maintenance Prediction Results](./predictive--maintenance-demo.png)
+![Predictive Maintenance Prediction Results](./predictive-maintenance-demo.png)
 
 *Interactive machine failure prediction application built with Python, Scikit-learn, and Streamlit.*
 
 ### Prediction Results
 
-![Predictive Maintenance Prediction Results](./predictive-maintenance-demo.png)
+![Predictive Maintenance Prediction Results](./predictive--maintenance-demo.png)
 
 *Example output from the machine-learning model, showing its estimated failure probability against the configured decision threshold.*
 
