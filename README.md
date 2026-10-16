@@ -7,6 +7,7 @@ Explore how machine operating conditions influence the model's estimated failure
 **Note:** This is a portfolio demonstration using a model trained on a synthetic dataset. Predictions are estimates and should not be used as the sole basis for real-world maintenance or safety decisions.
 
 ---
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-brightgreen?style=for-the-badge)](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
 
 # Predictive Maintenance: Machine Failure Prediction Using Machine Learning
 
