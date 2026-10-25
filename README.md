@@ -102,10 +102,13 @@ The selected Random Forest model uses a decision threshold of **0.25**, chosen t
 
 At the selected threshold of 0.25, the model achieved the following validation results:
 
+
 | Metric    | Validation result |
-| --------- | ----------------: |
+|-----------|------------------:|
 | Accuracy  |            97.80% |
 | Precision |            66.07% |
+| Recall    |            72.55% |
+| F1-score  |            69.16% |
 
 ## 🛠️ Installation and Getting Started
 
