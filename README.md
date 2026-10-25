@@ -1,33 +1,32 @@
+# Predictive Maintenance: Machine Failure Prediction Using Machine Learning
+
+An interactive machine-learning application that estimates machine-failure probability from operating conditions and sensor measurements. This project demonstrates predictive analytics, model evaluation, decision-threshold selection, and the deployment of a machine-learning model through a Streamlit web application.
+
+**Technologies:** Python · Pandas · NumPy · Scikit-learn · Joblib · Streamlit
+
 ## 🚀 Live Demo
 
-**Try the application:** [Predictive Maintenance — Machine Failure Prediction](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-brightgreen?style=for-the-badge)](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
 
-## 📸 Application Screenshot
+**[Launch Predictive Maintenance](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)**
 
-![Predictive Maintenance Prediction Results](./predictive-maintenance-demo.png)
+Explore how machine operating conditions influence the model's estimated failure probability and risk classification.
 
-*Interactive machine failure prediction application built with Python, Scikit-learn, and Streamlit.*
+**Important limitation:** This portfolio demonstration uses a model trained on synthetic data. Its predictions are estimates, not validated evidence of real-world industrial performance, and should not be used as the sole basis for maintenance or safety decisions.
+
+## 📸 Application Screenshots
+
+### Application Interface
+
+![Predictive Maintenance Application](./predictive-maintenance-demo.png)
+
+*Interactive machine-failure prediction interface.*
 
 ### Prediction Results
 
 ![Predictive Maintenance Prediction Results](./predictive--maintenance-demo.png)
 
-*Example output from the machine-learning model, showing its estimated failure probability against the configured decision threshold.*
-
-
-[🚀 Launch the Live App](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
-
-
-Explore how machine operating conditions influence the model's estimated failure probability and risk classification.
-
-**Note:** This is a portfolio demonstration using a model trained on a synthetic dataset. Predictions are estimates and should not be used as the sole basis for real-world maintenance or safety decisions.
-
----
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-brightgreen?style=for-the-badge)](https://machinefailureprediction-y5pqlklkrh5g3ntjpbeqge.streamlit.app/)
-
-# Predictive Maintenance: Machine Failure Prediction Using Machine Learning
-
-An interactive machine-learning application that estimates the probability of machine failure using operational sensor measurements. Built to demonstrate predictive analytics, data preprocessing, model evaluation, and decision-support applications for industrial operations.
+*Example model output showing estimated failure probability relative to the configured decision threshold.*
 
 ## Project Overview
 
