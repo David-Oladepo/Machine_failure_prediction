@@ -110,6 +110,21 @@ At the selected threshold of 0.25, the model achieved the following validation r
 | Recall    |            72.55% |
 | F1-score  |            69.16% |
 
+### Interpretation of Results
+
+* **Accuracy (97.80%):** The proportion of validation predictions that were correct overall.
+* **Precision (66.07%):** Among cases predicted as machine failures, the proportion that were actual failures.
+* **Recall (72.55%):** The proportion of actual machine failures that the model correctly identified.
+* **F1-score (69.16%):** The harmonic mean of precision and recall, providing a combined measure of these two metrics.
+
+### Decision Threshold
+
+The model uses a decision threshold of **0.25 (25%)**. A predicted failure probability at or above this threshold is classified as elevated risk by the application. The threshold was selected using validation data to balance precision and recall.
+
+A lower threshold can help identify more potential failures, but may also increase false alarms. The appropriate threshold for an operational environment would require further evaluation using representative real-world data and the consequences of missed failures versus unnecessary inspections.
+
+*These metrics describe validation performance on a synthetic dataset. They do not establish real-world industrial reliability.*
+
 ## 🛠️ Installation and Getting Started
 
 ### Prerequisites
